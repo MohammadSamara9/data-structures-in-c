@@ -1,0 +1,12 @@
+Ramallah#Jerusalem#16
+Ramallah#Nablus#47
+Ramallah#Jericho#38
+Jerusalem#Bethlehem#10
+Jerusalem#Jericho#36
+Bethlehem#Hebron#25
+Nablus#Jenin#42
+Nablus#Tulkarm#30
+Tulkarm#Qalqilya#18
+Qalqilya#Ramallah#55
+Jenin#Tulkarm#38
+Hebron#Jericho#70
