@@ -1,10 +1,12 @@
 # Data Structures in C
 
-Solutions to Data Structures problems in C, written while studying the course at **Birzeit University**.
+Everything I wrote while studying **Data Structures and Algorithms (COMP2421)** at **Birzeit University**: course projects, lecture examples, and solved problems, all in C.
 
-Each file is **self-contained**: it has the structure definition, the solution, and a small `main()` that shows the result, so you can compile and run any file on its own.
+Each file is **self-contained**: it has the structure definition, the code, and a small `main()` that shows the result, so you can compile and run any file on its own.
 
 ![C](https://img.shields.io/badge/language-C-00599C?logo=c&logoColor=white)
+![Projects](https://img.shields.io/badge/projects-3-orange)
+![Lecture examples](https://img.shields.io/badge/lecture_examples-18-blue)
 ![Problems](https://img.shields.io/badge/problems-23-brightgreen)
 
 ---
@@ -13,13 +15,51 @@ Each file is **self-contained**: it has the structure definition, the solution, 
 
 ```
 data-structures-in-c/
-├── linked-lists/     6 problems
-├── stacks-queues/    3 problems
-├── trees/           13 problems
-└── heaps/            1 problem
+├── projects/           3 course projects
+├── lecture-examples/   code from the lecture slides, by lecture
+├── linked-lists/       6 problems
+├── stacks-queues/      3 problems
+├── trees/             13 problems
+└── heaps/              1 problem
 ```
 
-## 🔗 Linked Lists
+---
+
+## 🚀 Projects
+
+| # | Project | Data structures & algorithms |
+|---|---|---|
+| 1 | [Task Manager](projects/1-task-manager-linked-list-stack) | Linked list, Stack (perform / undo) |
+| 2 | [Task Manager with BST](projects/2-task-manager-bst) | Binary Search Tree that can be rebuilt by ID, name, date or duration |
+| 3 | [Palestinian Road Network](projects/3-road-network-mst) | Graph, Hash table, Min-heap, Prim's & Kruskal's MST, Disjoint set, Quick sort |
+
+---
+
+## 📖 Lecture Examples
+
+Code examples from the course slides, organized by lecture. Each one has a `main()` so you can run it, and any mistakes on the slides are fixed and marked in a comment at the top of the file.
+
+| Lecture | Files |
+|---|---|
+| 01 Recursion | [count to ten](lecture-examples/01-recursion/count_to_ten.c), [sum of n numbers](lecture-examples/01-recursion/sum_natural_numbers.c), [multiply, factorial, fibonacci](lecture-examples/01-recursion/multiply_factorial_fibonacci.c), [Towers of Hanoi](lecture-examples/01-recursion/towers_of_hanoi.c) |
+| 02 Time Analysis | [ArrayMax & log2](lecture-examples/02-time-analysis/array_max_and_log.c), [loop complexity examples](lecture-examples/02-time-analysis/loop_complexity_examples.c), [isPrime, power, binary search](lecture-examples/02-time-analysis/is_prime_power_binary_search.c) |
+| 03 Linked List | [linked list ADT](lecture-examples/03-linked-list/linked_list.c) |
+| 04 Cursor Linked List | [cursor linked list](lecture-examples/04-cursor-linked-list/cursor_linked_list.c) |
+| 05 Stacks | [stack with linked list](lecture-examples/05-stacks/stack_linked_list.c) |
+| 06 Queues | [queue with circular array](lecture-examples/06-queues/queue_circular_array.c) |
+| 08 Binary Search Trees | [BST ADT](lecture-examples/08-binary-search-trees/bst.c) |
+| 13 Hashing Strings | [3 string hash functions](lecture-examples/13-hashing-strings/string_hash_functions.c) |
+| 15 Sorting | [insertion, selection, merge, shell sort](lecture-examples/15-sorting/sorting_algorithms.c) |
+| 16 Graphs | [Bellman-Ford](lecture-examples/16-graphs/bellman_ford.c) (written in C from the slide's pseudocode) |
+| 18 Dynamic Programming | [Fibonacci 4 ways](lecture-examples/18-dynamic-programming/fibonacci_four_ways.c), [binomial coefficient](lecture-examples/18-dynamic-programming/binomial_coefficient.c), [longest increasing subsequence](lecture-examples/18-dynamic-programming/longest_increasing_subsequence.c) |
+
+> The lectures on Trees, AVL, Splay Trees, B-Trees, Hashing, Heaps and MST have no C code on the slides, so they are not in this folder. Heaps, hashing and MST are used in the projects and problems.
+
+---
+
+## 🧩 Solved Problems
+
+### 🔗 Linked Lists
 
 | Problem | File | Idea |
 |---|---|---|
@@ -30,7 +70,7 @@ data-structures-in-c/
 | Remove consecutive duplicates | [remove_consecutive_duplicates.c](linked-lists/remove_consecutive_duplicates.c) | Recursion |
 | Reversed copy of a doubly linked list | [reverse_doubly_linked_list.c](linked-lists/reverse_doubly_linked_list.c) | Insert at the front |
 
-## 📚 Stacks & Queues
+### 📚 Stacks & Queues
 
 | Problem | File | Idea |
 |---|---|---|
@@ -38,7 +78,7 @@ data-structures-in-c/
 | Palindrome check | [is_palindrome.c](stacks-queues/is_palindrome.c) | Stack (LIFO) vs Queue (FIFO) |
 | Slice a stack from i to j | [slice_stack.c](stacks-queues/slice_stack.c) | Temporary stack |
 
-## 🌳 Trees
+### 🌳 Trees
 
 | Problem | File | Idea |
 |---|---|---|
@@ -56,7 +96,7 @@ data-structures-in-c/
 | Lowest common ancestor in a BST | [lowest_common_ancestor_bst.c](trees/lowest_common_ancestor_bst.c) | BST property |
 | Count subtrees with all values in [n, m] | [count_subtrees_in_range.c](trees/count_subtrees_in_range.c) | Post-order |
 
-## ⛰️ Heaps
+### ⛰️ Heaps
 
 | Problem | File | Idea |
 |---|---|---|

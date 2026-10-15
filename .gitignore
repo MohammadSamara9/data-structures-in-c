@@ -7,3 +7,6 @@ a.out
 # Editor folders
 .vscode/
 .idea/
+
+# Files created when running the projects
+Report.txt
