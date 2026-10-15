@@ -1,0 +1,5 @@
+101#Study Data Structures#20/10/2026#3.5
+102#Finish Java Assignment#18/10/2026#2.0
+103#Read AI Agents Article#22/10/2026#1.0
+104#Prepare Linux Lab#19/10/2026#1.5
+105#Gym Session#21/10/2026#1.2
