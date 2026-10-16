@@ -15,6 +15,7 @@ Each file is **self-contained**: it has the structure definition, the code, and 
 
 ```
 data-structures-in-c/
+├── certificates/       Coursera certificate
 ├── projects/           3 course projects
 ├── lecture-examples/   code from the lecture slides, by lecture
 ├── linked-lists/       6 problems
@@ -22,6 +23,13 @@ data-structures-in-c/
 ├── trees/             13 problems
 └── heaps/              1 problem
 ```
+
+---
+
+## 🎓 Certificate
+
+**Data Structures in C**, University of Michigan on Coursera (Sep 2026):
+[PDF](certificates/coursera-data-structures-in-c.pdf) · [Verify](https://coursera.org/verify/3QDQB877TGOU)
 
 ---
 
